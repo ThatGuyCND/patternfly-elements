@@ -1,0 +1,148 @@
+0 silly argv { _: [ 'version' ],
+0 silly argv   push: false,
+0 silly argv   preid: 'prerelease',
+0 silly argv   lernaVersion: '3.4.3',
+0 silly argv   '$0': '/home/mclayton/projects/pfe/node_modules/.bin/lerna' }
+1 notice cli v3.4.3
+2 verbose rootPath /home/mclayton/projects/pfe
+3 info current version 1.0.0-prerelease.7
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly hasTags
+9 verbose hasTags true
+10 silly git-describe.sync "initial-531-g3f738c9" => {"lastTagName":"initial","lastVersion":"initial","refCount":"531","sha":"3f738c9","isDirty":false}
+11 info Looking for changed packages since initial
+12 verbose updated @patternfly/pfe-accordion
+13 verbose updated @patternfly/pfe-autocomplete
+14 verbose updated @patternfly/pfe-card
+15 verbose updated @patternfly/pfe-cta
+16 verbose updated @patternfly/pfe-datetime
+17 verbose updated @patternfly/pfe-health-index
+18 verbose updated @patternfly/pfe-icon-panel
+19 verbose updated @patternfly/pfe-icon
+20 verbose updated @patternfly/pfe-layouts
+21 verbose updated @patternfly/pfe-number
+22 verbose updated @patternfly/pfe-sass
+23 verbose updated @patternfly/pfe-tabs
+24 verbose updated @patternfly/pfelement
+25 verbose updated @rhelements/cp-theme
+26 verbose git-describe undefined => "initial-531-g3f738c9"
+27 silly git-describe parsed => {"lastTagName":"initial","lastVersion":"initial","refCount":"531","sha":"3f738c9","isDirty":false}
+28 silly batched [ PackageGraphNode {
+28 silly batched     name: '@patternfly/pfe-sass',
+28 silly batched     externalDependencies: Map {},
+28 silly batched     localDependencies: Map {},
+28 silly batched     localDependents:
+28 silly batched      Map {
+28 silly batched        '@patternfly/pfe-accordion' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-autocomplete' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-card' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-cta' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-health-index' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-icon-panel' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-icon' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-layouts' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-tabs' => [PackageGraphNode] } },
+28 silly batched   PackageGraphNode {
+28 silly batched     name: '@patternfly/pfelement',
+28 silly batched     externalDependencies: Map {},
+28 silly batched     localDependencies: Map {},
+28 silly batched     localDependents:
+28 silly batched      Map {
+28 silly batched        '@patternfly/pfe-accordion' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-autocomplete' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-card' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-cta' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-datetime' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-health-index' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-icon-panel' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-icon' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-number' => [PackageGraphNode],
+28 silly batched        '@patternfly/pfe-tabs' => [PackageGraphNode] } },
+28 silly batched   PackageGraphNode {
+28 silly batched     name: '@rhelements/cp-theme',
+28 silly batched     externalDependencies: Map { 'normalize-scss' => [Object] },
+28 silly batched     localDependencies: Map {},
+28 silly batched     localDependents: Map {} } ]
+29 silly batched [ PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-accordion',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-autocomplete',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-card',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-cta',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-datetime',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-health-index',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-icon-panel',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-icon',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-layouts',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-number',
+29 silly batched     externalDependencies: Map { 'numeral' => [Object] },
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} },
+29 silly batched   PackageGraphNode {
+29 silly batched     name: '@patternfly/pfe-tabs',
+29 silly batched     externalDependencies: Map {},
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map {} } ]
+30 info execute Skipping git push
+31 silly gitAdd [ '/home/mclayton/projects/pfe/elements/pfelement/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-sass/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/themes/cp-theme/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-card/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-accordion/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-autocomplete/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-cta/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-health-index/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-icon-panel/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-datetime/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-icon/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-tabs/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-layouts/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/elements/pfe-number/package.json',
+31 silly gitAdd   '/home/mclayton/projects/pfe/lerna.json' ]
+32 silly gitCommit v1.0.0-prerelease.8
+33 verbose git [ 'commit', '-m', 'v1.0.0-prerelease.8' ]
+34 silly gitTag v1.0.0-prerelease.8
+35 verbose git [ 'tag', 'v1.0.0-prerelease.8', '-m', 'v1.0.0-prerelease.8' ]
+36 error Error: Command failed: git tag v1.0.0-prerelease.8 -m v1.0.0-prerelease.8
+36 error fatal: tag 'v1.0.0-prerelease.8' already exists
+36 error
+36 error     at makeError (/home/mclayton/projects/pfe/node_modules/@lerna/child-process/node_modules/execa/index.js:174:9)
+36 error     at Promise.all.then.arr (/home/mclayton/projects/pfe/node_modules/@lerna/child-process/node_modules/execa/index.js:278:16)
